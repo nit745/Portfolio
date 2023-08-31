@@ -1,0 +1,189 @@
+body{
+    background-color: aqua;
+    width: 100%;
+   margin: auto;
+   
+}
+
+img{
+    display:inline-block;
+    width:250px;
+    height: 250px;
+    box-shadow: 1px 3px 240px 3px red;
+    max-width:100%;
+    margin-right: 123px;
+  
+}
+
+.topbox{
+    /* background-color: rgb(205, 131, 27); */
+    display: flex;
+    padding: 23px;
+    
+}
+font{
+    color:rgb(166, 20, 20);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text{
+    font-style: oblique;
+    margin:50px 50px 12px 22px;
+    font-size: 2em;
+    padding: 60px;
+    width: 80%;
+    border:5px solid yellow;
+}
+
+header{
+    
+    background-color: aliceblue;
+    
+}
+
+
+header ul {
+   
+    list-style: none;
+    display: flex;
+    justify-content:right;
+    gap: 63px;
+    font-style: oblique;
+   
+  }
+header ul li{
+    margin:12px;
+}
+
+
+
+#skills{
+   
+    /* box-shadow:1px 0px 8px 4px rgb(28, 28, 136) ; */
+    padding: 60px;
+   margin-right: 230px;
+   font-weight: 500;
+   font-size: 23px;
+   width: 80%;
+   margin:0px 50px 12px 22px;
+
+    
+}
+#skills p{
+    font-size: 33px;
+    font-weight: bold;
+    color: rgb(180, 15, 15);
+}
+
+#projects{
+   font-size: 23px;
+   
+    background-color: rgb(23, 167, 167);
+    padding: 0px 60px;
+    text-align: center;
+    box-shadow:1px 0px 8px 4px rgb(28, 28, 136) ;
+   
+  }
+
+  #projects h3{
+    background-color: rgb(255, 255, 255);
+    font-size:34px;
+    color: rgb(27, 27, 10);
+  }
+
+header a{
+    text-decoration: none;
+    box-shadow: 2px 11px 16px 0px red;
+  
+}
+
+li a{
+    text-decoration: none;
+}
+
+.do{
+    background-color: rgb(236, 236, 233);
+    display: flex;
+   margin: 0 auto;
+}
+
+.logo{
+
+    margin:0 auto;
+    display: flex;
+    
+}
+.logo img{
+    margin: auto;
+   padding: 30px;
+   width: 30%;
+  
+}
+
+.pro-name{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.pro-name a{
+    color: aliceblue;
+}
+
+.pro-name li{
+    list-style: none;
+}
+
+#contact{
+  
+    padding: 23px;
+    display: flex;
+    gap: 100px;
+}
+
+.linkedin img{
+    background:fixed;
+    
+    width:30%;
+    height: 40%;
+}
+
+.insta img{
+    background:fixed;
+    
+    width:35%;
+    height: 40%;
+}
+
+.github img{
+    background:fixed;
+    
+    width:30%;
+    height: 40%;
+}
+
+#contact a{
+   
+    text-decoration: none;
+    color: rgb(180, 43, 16);
+    font-weight: bold;
+}
+
+.sk{
+    background-color: rgb(28, 109, 181);
+    margin: auto;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 900;
+    padding: 23px;
+    color: aliceblue;
+}
+
+span{
+   color: rgb(215, 43, 17);
+    font-size: 23px;
+    font-weight: 600;
+    
+}
